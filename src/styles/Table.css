@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: black; /* Added to set default font color */
+}
+
+.app-container {
+  text-align: center;
+  padding: 2rem;
+  color: black; /* Ensures text inside is black */
+}
+
+h1 {
+  color: black; /* Changed from #333 to black */
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 60%;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  color: black; /* Ensures table text is black */
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 12px;
+  text-align: center;
+  color: black; /* Ensures th and td text is black */
+}
+
+th {
+  background-color: #007bff;
+  color: black; /* Changed from white to black */
+  cursor: pointer;
+  user-select: none;
+}
+
+th:hover {
+  background-color: #0056b3;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
